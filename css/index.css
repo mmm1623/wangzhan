@@ -1,0 +1,658 @@
+/* 顶部导航
+ */
+
+#top-logo {
+    width: 100%;
+    height: 164px;
+}
+
+.top {
+    height: 30px;
+    background: #F4F4F4;
+    line-height: 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-family: '微软雅黑';
+    font-size: 10px;
+}
+
+.top a {
+    line-height: 15px;
+}
+
+.top .left {
+    line-height: 15px;
+    margin-left: 20px;
+}
+
+.logo {
+    height: 110px;
+}
+
+.top .right li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-family: '微软雅黑';
+    font-size: 10px;
+    margin-right: 30px;
+}
+
+.top .right i {
+    display: block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    float: left;
+}
+
+.top .right .kf {
+    position: relative;
+    z-index: 600;
+    float: left;
+    height: 30px;
+}
+
+.top .right .yc {
+    position: absolute;
+    top: 29px;
+    left: 0px;
+    display: none;
+    width: 70px;
+    padding: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-top: 0 none;
+    background-color: #fff;
+}
+
+.logo .logo-right {
+    width: 146px;
+    height: 45px;
+    line-height: 26px;
+    text-align: center;
+    margin: 26px 86px;
+}
+
+.logo .logo-right span {
+    font-size: 20px;
+}
+
+.logo .logo-right span a {
+    margin-top: 2px;
+}
+
+
+/* 进口食品 */
+
+#jinkou {
+    width: 100%;
+    height: 408px;
+    background: #b50709;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    cursor: pointer;
+}
+
+#jinkou .menu {
+    width: 190px;
+    height: 408px;
+    background: #47403c;
+    float: left;
+}
+
+#jinkou .menu li {
+    height: 45px;
+}
+
+#jinkou .menu li:hover {
+    background: #ccc;
+    opacity: 0.6;
+}
+
+#jinkou .menu li span {
+    display: block;
+    width: 140px;
+    height: 45px;
+    border-bottom: 1px solid #938366;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+}
+
+#jinkou .menu li:last-child span {
+    border-bottom: none;
+}
+
+#jinkou .menu li span a {
+    font-size: 14px;
+    color: white;
+    margin: 0 20px;
+}
+
+#jinkou .menu li span i {
+    color: #b3a077;
+}
+
+#jinkou .w {
+    position: relative;
+}
+
+#jinkou .menu-two {
+    position: absolute;
+    width: 470px;
+    height: 408px;
+    background: white;
+    top: 0;
+    left: 190px;
+    display: none;
+    z-index: 600;
+}
+
+#jinkou .menu-right {
+    width: 1038px;
+    height: 408px;
+    float: left;
+    position: relative;
+}
+
+#jinkou .menu-right .lb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+}
+
+#jinkou .menu-right .lb .two {
+    display: none;
+}
+
+#jinkou .point li {
+    position: absolute;
+    top: 50%;
+    left: 190px;
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.6;
+    display: none;
+}
+
+#jinkou .point li:hover {
+    opacity: 1;
+}
+
+#jinkou .point .right {
+    top: 50%;
+    left: 1186px;
+}
+
+#jinkou .point-two li {
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    background: white;
+    position: absolute;
+    bottom: 20px;
+    left: 656px;
+    opacity: 0.6;
+}
+
+#jinkou .point-two li:hover {
+    opacity: 1;
+}
+
+#jinkou .point-two .right {
+    margin-left: 24px;
+    float: left;
+}
+
+#jinkou .point-two .active {
+    background: #735941;
+    width: 20px;
+    height: 14px;
+    border-radius: 7px;
+}
+
+
+/* 二级菜单 */
+
+#jinkou .menu-two .clearfix .item {
+    float: left;
+    width: 185px;
+    height: 408px;
+    padding: 0 25px;
+}
+
+#jinkou .menu-two .clearfix .item-one {
+    margin-bottom: 25px;
+}
+
+#jinkou .menu-two .clearfix .item-one dt {
+    width: 175px;
+    height: 30px;
+    overflow: hidden;
+    margin: 5px 0;
+    padding: 0 5px;
+    border-bottom: 1px solid #ddd;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#jinkou .menu-two .clearfix .item-one dd {
+    display: inline-block;
+    width: 90px;
+    line-height: 23px;
+}
+
+
+/* logo */
+
+.logo {
+    height: 126px;
+    z-index: -1;
+}
+
+.logo-top {
+    height: 126px;
+    padding-top: 10px;
+}
+
+.logo-left {
+    width: 126px;
+    height: 88px;
+    float: left;
+}
+
+.logo-left img {
+    width: 126px;
+    height: 88px;
+    margin-top: 10px;
+}
+
+.logo-center {
+    width: 1190px;
+    height: 112px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.logo .middle {
+    width: 630px;
+    height: 112px;
+    margin-left: 102px;
+    z-index: 30;
+    float: left;
+}
+
+.middle-two {
+    width: 630px;
+    height: 87px;
+}
+
+.middle-input {
+    width: 630px;
+    height: 53px;
+    z-index: -1;
+    margin-top: 28px;
+}
+
+.middle-input-text {
+    width: 624px;
+    height: 24px;
+    margin-left: 16px;
+    line-height: 25px;
+}
+
+.middle-input-text li {
+    float: left;
+    margin-right: 14px;
+}
+
+.middle-input-text li.yshi {
+    width: 36px;
+    height: 23px;
+    border: 1px solid orange;
+    background: orange;
+    line-height: 22px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.middle-text {
+    width: 630px;
+    height: 25px;
+}
+
+.middle-text li {
+    float: left;
+    margin: 10px 3px;
+}
+
+.middle-input-case {
+    width: 630px;
+    height: 40px;
+    position: relative;
+}
+
+.middle-input-case-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 74px;
+    height: 40px;
+    border: 1px solid orange;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.middle-input-case-right button {
+    width: 74px;
+    height: 40px;
+    /* border: 0px none; */
+    outline-style: none;
+    background: salmon;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.middle-input-case-left {
+    width: 554px;
+    height: 39px;
+    border: 1px solid red;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.middle-input-case-left input {
+    padding: 6px 6px;
+    width: 460px;
+    height: 24px;
+    outline-style: none;
+    float: left;
+    border: 0px none;
+}
+
+.logo-right {
+    width: 120px;
+    height: 114px;
+    margin-left: 40px;
+    margin-top: -20px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.logo-right img {
+    width: 120px;
+    height: 90px;
+}
+
+.logo-right .ch {
+    display: block;
+    width: 16px;
+    height: 16px;
+    color: red;
+    line-height: 16px;
+    text-align: center;
+    background: #e5e5e3;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    right: -17px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.middle-input-case-left i {
+    display: block;
+    width: 28px;
+    height: 28px;
+    line-height: 16px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    margin: 3.5px 6px;
+}
+
+
+/* 全球精选 */
+
+#world {
+    background: #F3F3F3;
+}
+
+#world .one {
+    height: 880px;
+    overflow: hidden;
+    position: relative;
+}
+
+#world .ggd {
+    height: 60px;
+}
+
+#world .ggd .title h3 {
+    font-size: 22px;
+    margin-top: 54px;
+    margin-bottom: 10px;
+}
+
+#world .one .title {
+    height: 104px;
+    line-height: 148px;
+}
+
+#world .one .title i {
+    display: inline-block;
+    width: 16px;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    line-height: 20px;
+    text-align: center;
+    background: white;
+    font-style: normal;
+    border: 1px solid #ccc;
+    margin: 0 2px;
+}
+
+#world .one .title h3 {
+    font-size: 22px;
+}
+
+#world .one .tab {
+    width: 2460px;
+    position: absolute;
+    top: 104px;
+}
+
+#world .one .tab .content {
+    width: 1228px;
+    height: 776px;
+    float: left;
+}
+
+#world .one .tab .content td {
+    width: 240px;
+    height: 387px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: white;
+}
+
+#world .one .tab .content td:hover {
+    box-shadow: rgb(115, 152, 39) 2px 3px 14px, rgb(115, 152, 39) -2px 3px 14px;
+}
+
+#world .one .tab .content td p img {
+    margin-top: 12px;
+    transition: margin-top 0.5s linear;
+}
+
+#world .one .tab .content td p img:hover {
+    margin-top: 0px;
+}
+
+#world .one .tab .content td p a {
+    display: block;
+    width: 124px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin: 0 auto;
+}
+
+#world .one .tab .content td b {
+    color: red;
+    display: block;
+    margin-top: 4px;
+}
+
+#world .one .tab .content td em {
+    font-style: normal;
+    font-size: 8px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+#world .one .tab .content td p:nth-child(1) {
+    width: 240px;
+    height: 224px;
+    text-align: center;
+}
+
+#world .one .tab .content td p:nth-child(2) {
+    width: 240px;
+    height: 104px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#world .one .tab .content td p:nth-child(3) {
+    width: 240px;
+    height: 59px;
+}
+
+
+/* 固定导航 */
+
+.ggdh {
+    background: white;
+    position: fixed;
+    top: 346px;
+    display: none;
+    right: 49%;
+    width: 50px;
+    height: 225px;
+    text-align: center;
+    margin-right: -655px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.ggdh .on {
+    /* color: #FFF; */
+    font-weight: 700;
+}
+
+.ggdh p {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 6px;
+    z-index: 6;
+}
+
+.ggdh p::after {
+    content: '';
+    width: 50px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.ggdh p a {
+    color: green;
+}
+
+.ggdh .onw {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 6px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.ggdh .bianse {
+    background: #FF8D00;
+}
+
+.websit {
+    width: 1176px;
+    height: 260px;
+    position: absolute;
+    top: 30px;
+    left: 74px;
+    background: antiquewhite;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 600;
+}
+
+
+/* .tatil {
+    height: 1200px;
+} */
+
+.websit .one {
+    width: 24%;
+    float: left;
+    border-right: 1px dashed #ccc;
+}
+
+.websit .one:nth-child(4) {
+    border-right: none;
+}
+
+.websit h4 {
+    margin: 5px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.websit .one .nr li {
+    padding-top: 8px;
+    height: 24px;
+    width: 20%;
+    float: left;
+    padding-left: 14px;
+}
+
+.websit #active {
+    width: 26%;
+}
+
+.websit #active li {
+    padding-top: 4px;
+    text-align: left;
+    padding-left: 4px;
+}
+
+.websit #at li {
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 4px;
+    text-align: left;
+}
